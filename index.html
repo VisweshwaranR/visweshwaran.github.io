@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Visweshwaran R. — Senior Postdoctoral Researcher</title>
+<meta name="description" content="Academic website of Dr. Visweshwaran R., Senior Postdoctoral Researcher at RWTH Aachen University. Hydrology, data assimilation, remote sensing, flood modelling.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:#f1f2f3;color:#1b1d1f;font-family:"Source Sans 3",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#33566b;text-decoration:none}
+a:hover{color:#1b1d1f;text-decoration:underline}
+img{display:block;max-width:100%}
+
+/* Nav links */
+.nav-link{padding:6px 10px;font-size:15px;color:#4b5358;border-radius:6px;text-decoration:none}
+.nav-link:hover{background:#e4e6e8;color:#1b1d1f;text-decoration:none}
+.nav-cv{padding:6px 12px;font-size:15px;font-weight:600;color:#f6f7f7;background:#3c464c;border-radius:6px;text-decoration:none}
+.nav-cv:hover{background:#1b1d1f;color:#f6f7f7;text-decoration:none}
+
+/* Sidebar buttons */
+.sidebar-btn{display:inline-flex;align-items:center;padding:6px 11px;font-size:13.5px;font-weight:600;color:#3c464c;background:#fff;border:1px solid #dfe2e4;border-radius:6px;text-decoration:none}
+.sidebar-btn:hover{background:#3c464c;color:#fff;border-color:#3c464c;text-decoration:none}
+.sidebar-btn-dark{display:inline-flex;align-items:center;padding:6px 11px;font-size:13.5px;font-weight:600;color:#fff;background:#3c464c;border:1px solid #3c464c;border-radius:6px;text-decoration:none}
+.sidebar-btn-dark:hover{background:#1b1d1f;border-color:#1b1d1f;text-decoration:none}
+
+/* Paper cards */
+.paper-card{background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:20px 22px}
+.paper-card:hover{border-color:#b9bfc3}
+
+/* Tag buttons (DOI, PDF, etc.) */
+.tag-btn{padding:5px 10px;font-size:13.5px;font-weight:600;color:#3c464c;border:1px solid #dfe2e4;border-radius:6px;text-decoration:none;display:inline-block}
+.tag-btn:hover{background:#f1f2f3;text-decoration:none}
+
+/* Project cards */
+.project-card{display:block;background:#fff;border:1px solid #dfe2e4;border-radius:12px;overflow:hidden;color:inherit;text-decoration:none}
+.project-card:hover{border-color:#8f979c;box-shadow:0 6px 20px rgba(27,29,31,0.09);text-decoration:none}
+
+/* Data row links */
+.data-row{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;justify-content:space-between;background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:16px 20px;color:inherit;text-decoration:none}
+.data-row:hover{border-color:#8f979c;text-decoration:none}
+
+/* CV download button */
+.cv-dl{display:inline-block;padding:10px 18px;font-size:15.5px;font-weight:600;color:#1b1d1f;background:#fff;border-radius:8px;text-decoration:none}
+.cv-dl:hover{background:#dfe2e4;text-decoration:none}
+
+/* Placeholder image boxes */
+.img-placeholder{aspect-ratio:16/10;background:repeating-linear-gradient(135deg,#e6e8ea 0 10px,#dbdee1 10px 20px);display:flex;align-items:center;justify-content:center}
+.img-placeholder span{font-family:"IBM Plex Mono",monospace;font-size:12px;color:#6b7276}
+.gallery-placeholder{aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#e6e8ea 0 10px,#dbdee1 10px 20px);display:flex;align-items:center;justify-content:center}
+
+/* Responsive */
+@media(max-width:768px){
+  .about-layout{flex-direction:column}
+  .about-sidebar{max-width:100%!important}
+  .stat-grid{max-width:280px}
+}
+</style>
+</head>
+<body>
+
+<header style="position:sticky;top:0;z-index:50;background:rgba(241,242,243,0.92);backdrop-filter:blur(8px);border-bottom:1px solid #dfe2e4">
+  <nav style="max-width:1120px;margin:0 auto;padding:14px 24px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 24px">
+    <a href="#top" style="font-family:'Source Serif 4',serif;font-size:19px;font-weight:600;color:#1b1d1f;letter-spacing:-0.01em;text-decoration:none">Visweshwaran R.</a>
+    <div style="flex:1 1 20px"></div>
+    <div style="display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#research" class="nav-link">Research</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#academic-life" class="nav-link">Supervision &amp; Awards</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top" style="max-width:1120px;margin:0 auto;padding:0 24px 96px">
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about-layout" style="display:flex;flex-wrap:wrap;gap:40px;padding:56px 0 8px;align-items:flex-start">
+
+    <aside class="about-sidebar" style="flex:1 1 280px;max-width:340px">
+      <!-- HEADSHOT: replace the div below with <img src="images/headshot.jpg" alt="Visweshwaran R." style="width:100%;max-width:260px;border-radius:999px;border:1px solid #dfe2e4"> -->
+      <div style="width:100%;aspect-ratio:1/1;max-width:260px;border-radius:999px;overflow:hidden;background:repeating-linear-gradient(135deg,#e2e4e6 0 10px,#d7dadd 10px 20px);border:1px solid #dfe2e4;display:flex;align-items:center;justify-content:center;text-align:center">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6b7276;letter-spacing:0.04em;padding:0 24px">headshot<br>800×800</span>
+      </div>
+      <h1 style="margin:22px 0 4px;font-family:'Source Serif 4',serif;font-size:30px;font-weight:600;letter-spacing:-0.015em;line-height:1.15">Dr. Visweshwaran R.</h1>
+      <p style="margin:0 0 2px;font-size:16px;color:#4b5358">Senior Postdoctoral Researcher</p>
+      <p style="margin:0 0 4px;font-size:16px;color:#6b7276">Data-driven Computing in Civil Engineering (DCC), RWTH Aachen University</p>
+      <p style="margin:0 0 18px;font-size:15px;color:#6b7276">Aachen, Germany</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px">
+        <a href="mailto:ramesh@dcc.rwth-aachen.de" class="sidebar-btn">Email</a>
+        <a href="#" class="sidebar-btn">Google Scholar</a>
+        <a href="https://orcid.org/0000-0002-1664-9483" class="sidebar-btn">ORCID</a>
+        <a href="#" class="sidebar-btn">GitHub</a>
+        <a href="Viswesh_CV.pdf" class="sidebar-btn-dark">CV (PDF)</a>
+      </div>
+      <div class="stat-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:20px">
+        <div style="background:#fff;border:1px solid #dfe2e4;border-radius:8px;padding:10px 12px">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:20px;color:#1b1d1f">5</div>
+          <div style="font-size:12.5px;color:#6b7276;letter-spacing:0.04em;text-transform:uppercase">Journals</div>
+        </div>
+        <div style="background:#fff;border:1px solid #dfe2e4;border-radius:8px;padding:10px 12px">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:20px;color:#1b1d1f">127</div>
+          <div style="font-size:12.5px;color:#6b7276;letter-spacing:0.04em;text-transform:uppercase">Citations</div>
+        </div>
+        <div style="background:#fff;border:1px solid #dfe2e4;border-radius:8px;padding:10px 12px">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:20px;color:#1b1d1f">13</div>
+          <div style="font-size:12.5px;color:#6b7276;letter-spacing:0.04em;text-transform:uppercase">Conferences</div>
+        </div>
+        <div style="background:#fff;border:1px solid #dfe2e4;border-radius:8px;padding:10px 12px">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:20px;color:#1b1d1f">5</div>
+          <div style="font-size:12.5px;color:#6b7276;letter-spacing:0.04em;text-transform:uppercase">h-index</div>
+        </div>
+      </div>
+      <div style="padding-top:16px;border-top:1px solid #dfe2e4;font-size:14.5px;color:#6b7276;line-height:1.6">
+        Chair of Data-driven Computing<br>
+        RWTH Aachen University<br>
+        52074 Aachen, Germany<br>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13px">ramesh@dcc.rwth-aachen.de</span>
+      </div>
+    </aside>
+
+    <div style="flex:3 1 420px;min-width:0">
+      <h2 style="margin:0 0 14px;font-family:'Source Serif 4',serif;font-size:24px;font-weight:600;letter-spacing:-0.01em">About</h2>
+      <p style="margin:0 0 14px;font-size:17.5px;line-height:1.65;color:#2b3033;text-wrap:pretty">I am a hydrologist working on data-driven methods for environmental and water systems, combining hydrological and groundwater modelling, data assimilation, GIS, and remote sensing. My work uses machine learning and mathematical frameworks to improve forecasting and our understanding of how these systems behave.</p>
+      <p style="margin:0 0 14px;font-size:17.5px;line-height:1.65;color:#2b3033;text-wrap:pretty">I am currently a Senior Postdoctoral Researcher at the Chair of Data-driven Computing in Civil Engineering, RWTH Aachen University, on the FLAIR project — developing an AI-based approach to predict ensembles of regional flood flows and inundation depth. Before Aachen I was a postdoctoral researcher at the University of Reading (2023–2026), where I carried out the first state–parameter assimilation for the JULES land surface model using hybrid En-Var assimilation of COSMOS-UK soil moisture observations, and assimilated streamflow into CaMa-Flood to improve UK flood inundation forecasts.</p>
+      <p style="margin:0 0 26px;font-size:17.5px;line-height:1.65;color:#2b3033;text-wrap:pretty">I hold a PhD in Remote Sensing from IIT Bombay, where my thesis developed efficient assimilation strategies for hydrological models. I review for <em>Advances in Water Resources</em>, <em>Water</em>, and the <em>ISH Journal of Hydraulic Engineering</em>, and I convene the Land Surface Data Assimilation Community of Practice.</p>
+      <p style="margin:0 0 26px;font-size:16.5px;line-height:1.6;color:#4b5358">My full curriculum vitae, with the complete list of publications, awards, and service, is available as a <a href="Viswesh_CV.pdf" style="font-weight:600">PDF download</a>.</p>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-bottom:24px">
+        <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:20px 22px">
+          <h3 style="margin:0 0 12px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Research interests</h3>
+          <ul style="margin:0;padding-left:18px;font-size:16px;line-height:1.85;color:#2b3033">
+            <li>Hydrology and flood modelling</li>
+            <li>Data assimilation</li>
+            <li>Machine learning applications</li>
+            <li>Remote sensing and GIS</li>
+            <li>Soil moisture</li>
+            <li>High-performance computing</li>
+          </ul>
+        </div>
+        <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:20px 22px">
+          <h3 style="margin:0 0 12px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Education</h3>
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div>
+              <div style="font-size:16px;color:#1b1d1f;font-weight:600">PhD in Remote Sensing, 2023</div>
+              <div style="font-size:15px;color:#6b7276">IIT Bombay — Towards Improving the Performance of Hydrological Models Using Efficient Assimilation Strategies</div>
+            </div>
+            <div>
+              <div style="font-size:16px;color:#1b1d1f;font-weight:600">MTech in Remote Sensing and GIS, 2018</div>
+              <div style="font-size:15px;color:#6b7276">NIT Surathkal</div>
+            </div>
+            <div>
+              <div style="font-size:16px;color:#1b1d1f;font-weight:600">BE in Civil Engineering, 2016</div>
+              <div style="font-size:15px;color:#6b7276">Anna University</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px">
+        <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:20px 22px">
+          <h3 style="margin:0 0 12px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Appointments</h3>
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div>
+              <div style="font-size:16px;color:#1b1d1f;font-weight:600">Senior Postdoctoral Researcher</div>
+              <div style="font-size:15px;color:#6b7276">RWTH Aachen University · 2026–present</div>
+            </div>
+            <div>
+              <div style="font-size:16px;color:#1b1d1f;font-weight:600">Postdoctoral Researcher</div>
+              <div style="font-size:15px;color:#6b7276">University of Reading · 2023–2026</div>
+            </div>
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:20px 22px">
+          <h3 style="margin:0 0 12px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Tools and models</h3>
+          <p style="margin:0 0 8px;font-size:15.5px;line-height:1.6;color:#2b3033"><strong style="color:#1b1d1f">Models:</strong> JULES, CaMa-Flood, SWAT, GR4J, HEC-HMS, HEC-RAS</p>
+          <p style="margin:0 0 8px;font-size:15.5px;line-height:1.6;color:#2b3033"><strong style="color:#1b1d1f">Programming:</strong> Python, MATLAB, C/C++, Bash, Jinja2, HTML/CSS, LaTeX</p>
+          <p style="margin:0;font-size:15.5px;line-height:1.6;color:#2b3033"><strong style="color:#1b1d1f">Software:</strong> ArcGIS, QGIS, SNAP, ERDAS, TerrSet, Affinity Designer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESEARCH ============ -->
+  <section id="research" style="padding:44px 0 8px;border-top:1px solid #dfe2e4;margin-top:44px">
+    <h2 style="margin:0 0 6px;font-family:'Source Serif 4',serif;font-size:28px;font-weight:600;letter-spacing:-0.015em">Research</h2>
+    <p style="margin:0 0 28px;font-size:16.5px;color:#6b7276">Journal articles, working papers, conference presentations, and invited talks — most recent first.</p>
+
+    <h3 style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Journal articles</h3>
+    <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:36px">
+
+      <article class="paper-card">
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between">
+          <h4 style="margin:0;font-size:18.5px;font-weight:600;line-height:1.35;color:#1b1d1f;flex:1 1 280px">Dual correction of rainfall and root zone soil moisture estimates for improving streamflow simulations</h4>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6b7276">2025</span>
+        </div>
+        <p style="margin:6px 0 0;font-size:15.5px;color:#4b5358">Visweshwaran, R., Patil, A., &amp; Ramsankaran, R. A. A. J.</p>
+        <p style="margin:2px 0 12px;font-size:15.5px;font-style:italic;color:#4b5358">ARC Geophysical Research, 1(1)</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px"><a href="#" class="tag-btn">DOI</a></div>
+      </article>
+
+      <article class="paper-card">
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between">
+          <h4 style="margin:0;font-size:18.5px;font-weight:600;line-height:1.35;color:#1b1d1f;flex:1 1 280px">Improving modelled streamflow using time-varying multivariate assimilation of remotely sensed soil moisture and in situ streamflow observations</h4>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6b7276">2024</span>
+        </div>
+        <p style="margin:6px 0 0;font-size:15.5px;color:#4b5358">Visweshwaran, R., Ramsankaran, R. A. A. J., &amp; Eldho, T. I.</p>
+        <p style="margin:2px 0 12px;font-size:15.5px;font-style:italic;color:#4b5358">Advances in Water Resources, 186, Article 104676</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px"><a href="#" class="tag-btn">DOI</a></div>
+      </article>
+
+      <article class="paper-card">
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between">
+          <h4 style="margin:0;font-size:18.5px;font-weight:600;line-height:1.35;color:#1b1d1f;flex:1 1 280px">Sensitivity-based soil moisture assimilation for improved streamflow forecast using a novel forward sensitivity method (FSM) approach</h4>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6b7276">2022</span>
+        </div>
+        <p style="margin:6px 0 0;font-size:15.5px;color:#4b5358">Visweshwaran, R., Ramsankaran, R. A. A. J., Eldho, T. I., &amp; Lakshmivarahan, S.</p>
+        <p style="margin:2px 0 12px;font-size:15.5px;font-style:italic;color:#4b5358">Water Resources Research, 58(1), Article e2021WR031092</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px"><a href="#" class="tag-btn">DOI</a></div>
+      </article>
+
+      <article class="paper-card">
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between">
+          <h4 style="margin:0;font-size:18.5px;font-weight:600;line-height:1.35;color:#1b1d1f;flex:1 1 280px">Hydrological impact assessment of future climate change on a complex river basin of the Western Ghats, India</h4>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6b7276">2022</span>
+        </div>
+        <p style="margin:6px 0 0;font-size:15.5px;color:#4b5358">Visweshwaran, R., Ramsankaran, R. A. A. J., Eldho, T. I., &amp; Jha, M. K.</p>
+        <p style="margin:2px 0 12px;font-size:15.5px;font-style:italic;color:#4b5358">Water, 14(21), Article 3571</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px"><a href="#" class="tag-btn">DOI</a></div>
+      </article>
+
+      <article class="paper-card">
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between">
+          <h4 style="margin:0;font-size:18.5px;font-weight:600;line-height:1.35;color:#1b1d1f;flex:1 1 280px">SWAT-based prediction of runoff under scenarios of land use/land cover and climate change across Indian agro-climatic zones: Implications for the Sustainable Development Goals</h4>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6b7276">2025</span>
+        </div>
+        <p style="margin:6px 0 0;font-size:15.5px;color:#4b5358">Subbarayan, S., Youssef, Y. M., Singh, L., … Visweshwaran, R., &amp; Saqr, A. M.</p>
+        <p style="margin:2px 0 12px;font-size:15.5px;font-style:italic;color:#4b5358">Water, 17(3), Article 458</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px"><a href="#" class="tag-btn">DOI</a></div>
+      </article>
+    </div>
+
+    <h3 style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Working papers, book chapters, and manuscripts in preparation</h3>
+    <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:36px">
+      <article class="paper-card">
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between">
+          <h4 style="margin:0;font-size:18.5px;font-weight:600;line-height:1.35;color:#1b1d1f;flex:1 1 280px">Improving JULES soil moisture estimates through hybrid 4D-EnVar assimilation of COSMOS-UK soil moisture observations</h4>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6b7276">2025</span>
+        </div>
+        <p style="margin:6px 0 0;font-size:15.5px;color:#4b5358">Visweshwaran, R., Cooper, E., &amp; Dance, S. L.</p>
+        <p style="margin:2px 0 12px;font-size:15.5px;font-style:italic;color:#4b5358">Submitted to Hydrology and Earth System Sciences</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px"><a href="#" class="tag-btn">Preprint</a></div>
+      </article>
+      <article class="paper-card">
+        <h4 style="margin:0;font-size:18.5px;font-weight:600;line-height:1.35;color:#1b1d1f">How do model characteristics impact soil moisture assimilation efficiency? A detailed study using two conceptual rainfall-runoff models</h4>
+        <p style="margin:6px 0 0;font-size:15.5px;color:#4b5358">Visweshwaran, R., Ramsankaran, R. A. A. J., &amp; Eldho, T. I.</p>
+        <p style="margin:2px 0 0;font-size:15.5px;font-style:italic;color:#4b5358">Manuscript in preparation</p>
+      </article>
+      <article class="paper-card">
+        <h4 style="margin:0;font-size:18.5px;font-weight:600;line-height:1.35;color:#1b1d1f">Mapping, measuring, and modelling flood impacts with Earth observation</h4>
+        <p style="margin:6px 0 0;font-size:15.5px;color:#4b5358">Schriewer, E.-L., Kumar, R., Tan, B. T., Fuest, L., Rosas, S. R., Hosch, P., Visweshwaran, R., &amp; Dasgupta, A.</p>
+        <p style="margin:2px 0 0;font-size:15.5px;font-style:italic;color:#4b5358">Book chapter in preparation</p>
+      </article>
+      <article class="paper-card">
+        <h4 style="margin:0;font-size:18.5px;font-weight:600;line-height:1.35;color:#1b1d1f">Dynamic data assimilation in hydrology: A primer</h4>
+        <p style="margin:6px 0 0;font-size:15.5px;color:#4b5358">Visweshwaran, R., Ramsankaran, R. A. A. J., Lakshmivarahan, S., &amp; Lewis, J. M.</p>
+        <p style="margin:2px 0 0;font-size:15.5px;font-style:italic;color:#4b5358">Book in preparation</p>
+      </article>
+    </div>
+
+    <h3 style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Conferences and meetings</h3>
+    <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:8px 22px;margin-bottom:36px">
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2026</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Deep data assimilation for operational AI-based flood forecasting using multi-source Earth observations</div>
+          <div style="font-size:15px;color:#6b7276">MLDADS 2026, DESY Research Centre, Hamburg, Germany · with A. Dasgupta</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2026</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Towards operational AI-based flood forecasting using deep data assimilation of multi-source Earth observations</div>
+          <div style="font-size:15px;color:#6b7276">EGU General Assembly 2026, Vienna, Austria · EGU26-6311</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2025</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Enhancing hydrological forecasting in JULES through EnVar-based soil moisture assimilation of COSMOS observations</div>
+          <div style="font-size:15px;color:#6b7276">UKCEH Land and Water in a Changing Climate Meeting, The Royal Society, London, UK</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2025</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Optimising soil moisture assimilation strategies for improved hydrological predictions in the JULES land surface model</div>
+          <div style="font-size:15px;color:#6b7276">6th International Earth Surface Working Group Meeting (IESWG 2025), Frankfurt, Germany</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2024</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Improving soil moisture estimates from the JULES land surface model through hybrid 4D-EnVar assimilation of COSMOS-UK soil moisture observations</div>
+          <div style="font-size:15px;color:#6b7276">12th ADJOINT Workshop on Meteorological Sensitivity Analysis and Data Assimilation, Lake George, NY, USA</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2023</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Improving the performance of hydrological model forecasts using time-varying multivariate EnKF assimilation</div>
+          <div style="font-size:15px;color:#6b7276">HEPEX 2023, SMHI, Norrköping, Sweden</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2023</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Improving streamflow estimates using efficient time-varying multivariate assimilation of soil moisture and streamflow observations</div>
+          <div style="font-size:15px;color:#6b7276">EGU General Assembly 2023, Vienna, Austria · EGU23-937</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2022</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Sequential EnKF assimilation of sensitive soil moisture observations to improve streamflow estimation</div>
+          <div style="font-size:15px;color:#6b7276">AGU Fall Meeting 2022 · Abstract H24K-06</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2022</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Impact of land use/land cover change on streamflow forecasts using the SWAT model: A case study in a heterogeneous river basin in the Western Ghats</div>
+          <div style="font-size:15px;color:#6b7276">HYDRO 2022, Indian Society for Hydraulics</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2021</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Dynamic data assimilation for improved streamflow forecasts using sensitive soil moisture observations</div>
+          <div style="font-size:15px;color:#6b7276">AGU Fall Meeting 2021 · Abstract H35W-1296</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2018</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Age-wise crop water requirement of paddy fields under different climatic conditions</div>
+          <div style="font-size:15px;color:#6b7276">HYDRO 2018, Indian Society for Hydraulics · with K. Varija</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2018</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Estimation of design flood of a canal regulator at Moolathara using the HEC-HMS model</div>
+          <div style="font-size:15px;color:#6b7276">HYDRO 2018 · Vijayan, A., Nagaraj, M. K., &amp; Visweshwaran, R.</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2018</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Age-wise crop water requirement of paddy fields: A case study in Pattambi</div>
+          <div style="font-size:15px;color:#6b7276">Frontiers of Construction Technology and Computational Mechanics (CTCM 2018), AIJR Publishers</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Invited talks</h3>
+    <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:8px 22px;margin-bottom:36px">
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2025</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Data assimilation applications</div>
+          <div style="font-size:15px;color:#6b7276">NCEO/DARC Data Assimilation Training Course 2025</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">—</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">5th Annual Land Data Assimilation Community Workshop</div>
+          <div style="font-size:15px;color:#6b7276">AIMES Land DA Working Group · <a href="#">recording</a></div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Poster presentations</h3>
+    <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:8px 22px">
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2025</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Land surface data assimilation community of practice (LSDA-CoP)</div>
+          <div style="font-size:15px;color:#6b7276">UKCEH Land and Water in a Changing Climate Meeting, The Royal Society, London · Cooper, E., Visweshwaran, R., &amp; Dance, S.</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0;border-bottom:1px solid #eceef0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2025</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Understanding flood dynamics in East African wetlands: Insights from model and observation comparison</div>
+          <div style="font-size:15px;color:#6b7276">UKCEH Land and Water in a Changing Climate Meeting, The Royal Society, London · Perrett, J., Folwell, S., Cooper, E., Visweshwaran, R., &amp; Dance, S.</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 20px;padding:16px 0">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:#6b7276;flex:0 0 56px">2023</span>
+        <div style="flex:1 1 280px">
+          <div style="font-size:16.5px;line-height:1.5;color:#1b1d1f">Improving the performance of hydrological models using efficient assimilation strategies</div>
+          <div style="font-size:15px;color:#6b7276">IEEE GRSS International Soil Moisture School (ISMS 2023), IIT Bombay, India</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" style="padding:44px 0 8px;border-top:1px solid #dfe2e4;margin-top:44px">
+    <h2 style="margin:0 0 6px;font-family:'Source Serif 4',serif;font-size:28px;font-weight:600;letter-spacing:-0.015em">Projects</h2>
+    <p style="margin:0 0 24px;font-size:16.5px;color:#6b7276;max-width:62ch;text-wrap:pretty">Funded projects and research software I have led or contributed to.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px">
+
+      <a href="#" class="project-card">
+        <div class="img-placeholder"><span>FLAIR image 1200×750</span></div>
+        <div style="padding:18px 20px 20px">
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px">
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">Ongoing</span>
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">AI · Flood</span>
+          </div>
+          <h3 style="margin:0 0 6px;font-size:19px;font-weight:600;line-height:1.3;color:#1b1d1f">FLAIR — Flood Forecasting using AI for Regional Sustainability</h3>
+          <p style="margin:0 0 12px;font-size:15.5px;line-height:1.55;color:#4b5358;text-wrap:pretty">Developing an AI-based approach to predict ensembles of regional flood flows and inundation depth. Mentor: Prof. Antara Dasgupta. With CWRDM, IIT Delhi, Suhora, and Floodwaive.</p>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276">2026 – present · RWTH Aachen</div>
+        </div>
+      </a>
+
+      <a href="#" class="project-card">
+        <div class="img-placeholder"><span>JULES / COSMOS image 1200×750</span></div>
+        <div style="padding:18px 20px 20px">
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px">
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">Completed</span>
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">NCEO · NERC</span>
+          </div>
+          <h3 style="margin:0 0 6px;font-size:19px;font-weight:600;line-height:1.3;color:#1b1d1f">Optimising soil moisture assimilation for the JULES land surface model</h3>
+          <p style="margin:0 0 12px;font-size:15.5px;line-height:1.55;color:#4b5358;text-wrap:pretty">First state–parameter assimilation for JULES, integrating UKCEH COSMOS field-scale soil moisture with a hybrid En-Var technique, and testing cyclic assimilation of initial soil moisture.</p>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276">2023 – 2026 · University of Reading</div>
+        </div>
+      </a>
+
+      <a href="#" class="project-card">
+        <div class="img-placeholder"><span>CANARI image 1200×750</span></div>
+        <div style="padding:18px 20px 20px">
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px">
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">Completed</span>
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">CaMa-Flood</span>
+          </div>
+          <h3 style="margin:0 0 6px;font-size:19px;font-weight:600;line-height:1.3;color:#1b1d1f">CANARI — Arctic–North Atlantic climate change and UK impacts</h3>
+          <p style="margin:0 0 12px;font-size:15.5px;line-height:1.55;color:#4b5358;text-wrap:pretty">Assimilating streamflow observations into the CaMa-Flood model to improve flood inundation forecasts for UK catchments.</p>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276">2025 · University of Reading</div>
+        </div>
+      </a>
+
+      <a href="#" class="project-card">
+        <div class="img-placeholder"><span>wetlands image 1200×750</span></div>
+        <div style="padding:18px 20px 20px">
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px">
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">Completed</span>
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">HydroJULES</span>
+          </div>
+          <h3 style="margin:0 0 6px;font-size:19px;font-weight:600;line-height:1.3;color:#1b1d1f">Flood dynamics in East African wetlands</h3>
+          <p style="margin:0 0 12px;font-size:15.5px;line-height:1.55;color:#4b5358;text-wrap:pretty">Supervised an intern comparing observations with CaMa-Flood, with sensitivity analysis on channel depth, channel width, and the bifurcation parameter.</p>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276">2025 · UKCEH internship programme</div>
+        </div>
+      </a>
+
+      <a href="#" class="project-card">
+        <div class="img-placeholder"><span>INCCC image 1200×750</span></div>
+        <div style="padding:18px 20px 20px">
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px">
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">Completed</span>
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">SWAT · MoWR</span>
+          </div>
+          <h3 style="margin:0 0 6px;font-size:19px;font-weight:600;line-height:1.3;color:#1b1d1f">INCCC — LULC and climate change impacts, Tadri to Kanyakumari</h3>
+          <p style="margin:0 0 12px;font-size:15.5px;line-height:1.55;color:#4b5358;text-wrap:pretty">Assessed anthropogenic and climate change impacts on hydrology to 2100 for the Bharathapuzha basin, and built the database and interactive interface hosted by the Ministry of Water Resources.</p>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276">2018 – 2023 · IIT Bombay</div>
+        </div>
+      </a>
+
+      <a href="#" class="project-card">
+        <div class="img-placeholder"><span>HDAS-IITB screenshot 1200×750</span></div>
+        <div style="padding:18px 20px 20px">
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px">
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">Software</span>
+            <span style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#4b5358;background:#eceef0;padding:3px 8px;border-radius:4px">Open source</span>
+          </div>
+          <h3 style="margin:0 0 6px;font-size:19px;font-weight:600;line-height:1.3;color:#1b1d1f">HDAS-IITB — Hydro Data Assimilation System</h3>
+          <p style="margin:0 0 12px;font-size:15.5px;line-height:1.55;color:#4b5358;text-wrap:pretty">Research software enabling EnKF-based soil moisture assimilation in the distributed GR4J hydrological model.</p>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276">IIT Bombay</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ SUPERVISION, TEACHING & AWARDS ============ -->
+  <section id="academic-life" style="padding:44px 0 8px;border-top:1px solid #dfe2e4;margin-top:44px">
+    <h2 style="margin:0 0 6px;font-family:'Source Serif 4',serif;font-size:28px;font-weight:600;letter-spacing:-0.015em">Supervision, Teaching &amp; Awards</h2>
+    <p style="margin:0 0 28px;font-size:16.5px;color:#6b7276;max-width:62ch;text-wrap:pretty">Students I work with, courses I have taught, recognition, and community building.</p>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:16px">
+      <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:22px 24px">
+        <h3 style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Awards and recognition</h3>
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <div>
+            <div style="font-size:16.5px;font-weight:600;color:#1b1d1f">ISH Best PhD Thesis Award 2024</div>
+            <div style="font-size:15.5px;line-height:1.55;color:#4b5358">Indian Society for Hydraulics, for outstanding contributions to PhD research — certificate and cash prize.</div>
+          </div>
+          <div>
+            <div style="font-size:16.5px;font-weight:600;color:#1b1d1f">Invited presentation at the Royal Society</div>
+            <div style="font-size:15.5px;line-height:1.55;color:#4b5358">Presented NCEO research under the "Land and Water in a Changing Climate" theme, London, September 2025.</div>
+          </div>
+        </div>
+      </div>
+      <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:22px 24px">
+        <h3 style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Teaching</h3>
+        <p style="margin:0 0 10px;font-size:15.5px;color:#6b7276">Teaching assistant for:</p>
+        <ul style="margin:0 0 14px;padding-left:18px;font-size:16px;line-height:1.8;color:#2b3033">
+          <li>Hydroinformatics — RWTH Aachen</li>
+          <li>RS and GIS for Water Resources Management — IIT Bombay</li>
+          <li>Mechanics of Fluids — NIT Surathkal</li>
+        </ul>
+        <h3 style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Peer review</h3>
+        <p style="margin:0;font-size:16px;line-height:1.7;color:#2b3033">Advances in Water Resources (Elsevier) · Water (MDPI) · ISH Journal of Hydraulic Engineering (Taylor &amp; Francis)</p>
+      </div>
+    </div>
+
+    <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:22px 24px;margin-bottom:16px">
+      <h3 style="margin:0 0 16px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Research supervision</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px">
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276;margin-bottom:4px">PhD · ongoing</div>
+          <div style="font-size:16.5px;font-weight:600;color:#1b1d1f">Ms Greeshma Nair</div>
+          <div style="font-size:15.5px;line-height:1.55;color:#4b5358">Multivariate data assimilation for an improved distributed hydrological model</div>
+        </div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276;margin-bottom:4px">Bachelor · ongoing</div>
+          <div style="font-size:16.5px;font-weight:600;color:#1b1d1f">Ms Kim Theisen Trinh</div>
+          <div style="font-size:15.5px;line-height:1.55;color:#4b5358">Physics-informed emulator of CaMa-Flood for accurate spatiotemporal flood forecasting</div>
+        </div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276;margin-bottom:4px">Visiting PhD &amp; Master's · ongoing</div>
+          <div style="font-size:16.5px;font-weight:600;color:#1b1d1f">Mr Rajeev Ranjan and Ms Luisa Fuest</div>
+          <div style="font-size:15.5px;line-height:1.55;color:#4b5358">Particle filter-based flood depth assimilation for improved CaMa-Flood simulations</div>
+        </div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276;margin-bottom:4px">Master's · ongoing</div>
+          <div style="font-size:16.5px;font-weight:600;color:#1b1d1f">Ms Dharani</div>
+          <div style="font-size:15.5px;line-height:1.55;color:#4b5358">Bias-corrected SWOT data assimilation for CaMa-Flood simulations</div>
+        </div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:#6b7276;margin-bottom:4px">Internship · 2025</div>
+          <div style="font-size:16.5px;font-weight:600;color:#1b1d1f">Mr Jake Perrett</div>
+          <div style="font-size:15.5px;line-height:1.55;color:#4b5358">Understanding flood dynamics in East African wetlands — HydroJULES Internship Programme</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px">
+      <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:22px 24px">
+        <h3 style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Community building</h3>
+        <ul style="margin:0;padding-left:18px;font-size:16px;line-height:1.7;color:#2b3033">
+          <li style="margin-bottom:10px">Organised the Land Surface Data Assimilation Community of Practice (LSDA-CoP) workshop series, 2023–2025, bringing together NCEO, UKCEH, the Met Office, ECMWF, NOAA, and the Universities of Reading and Southampton.</li>
+          <li>Co-organised "Microwaves from the Sky — the Earth in Radar", an outreach workshop for 20 high-school students at RWTH Aachen.</li>
+        </ul>
+      </div>
+      <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:22px 24px">
+        <h3 style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Field campaigns</h3>
+        <ul style="margin:0;padding-left:18px;font-size:16px;line-height:1.8;color:#2b3033">
+          <li>Drone surveying at the Dhudi and Panchi-Nala glacier sites</li>
+          <li>Bathymetric survey of the Krishna River</li>
+          <li>Hydrological field surveys in the Bharathapuzha, Chaliyar, and Netravathi basins, Western Ghats</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <!-- To add a photo: upload image to "images/" folder, then replace the <div class="gallery-placeholder">…</div> with: -->
+  <!-- <img src="images/your-photo.jpg" alt="description" style="width:100%;height:100%;object-fit:cover"> -->
+  <section id="gallery" style="padding:44px 0 8px;border-top:1px solid #dfe2e4;margin-top:44px">
+    <h2 style="margin:0 0 6px;font-family:'Source Serif 4',serif;font-size:28px;font-weight:600;letter-spacing:-0.015em">Gallery</h2>
+    <p style="margin:0 0 24px;font-size:16.5px;color:#6b7276;max-width:62ch;text-wrap:pretty">Photographs from field campaigns, workshops, and conference presentations.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px">
+
+      <figure style="margin:0;background:#fff;border:1px solid #dfe2e4;border-radius:12px;overflow:hidden">
+        <div class="gallery-placeholder"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6b7276">photo 1600×1200</span></div>
+        <figcaption style="padding:14px 16px 16px">
+          <div style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#6b7276;margin-bottom:5px">Field campaign</div>
+          <div style="font-size:16px;line-height:1.45;color:#1b1d1f">Drone surveying at the Dhudi glacier site</div>
+        </figcaption>
+      </figure>
+
+      <figure style="margin:0;background:#fff;border:1px solid #dfe2e4;border-radius:12px;overflow:hidden">
+        <div class="gallery-placeholder"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6b7276">photo 1600×1200</span></div>
+        <figcaption style="padding:14px 16px 16px">
+          <div style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#6b7276;margin-bottom:5px">Field campaign</div>
+          <div style="font-size:16px;line-height:1.45;color:#1b1d1f">Bathymetric survey of the Krishna River</div>
+        </figcaption>
+      </figure>
+
+      <figure style="margin:0;background:#fff;border:1px solid #dfe2e4;border-radius:12px;overflow:hidden">
+        <div class="gallery-placeholder"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6b7276">photo 1600×1200</span></div>
+        <figcaption style="padding:14px 16px 16px">
+          <div style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#6b7276;margin-bottom:5px">Field campaign</div>
+          <div style="font-size:16px;line-height:1.45;color:#1b1d1f">Hydrological survey in the Western Ghats, Bharathapuzha basin</div>
+        </figcaption>
+      </figure>
+
+      <figure style="margin:0;background:#fff;border:1px solid #dfe2e4;border-radius:12px;overflow:hidden">
+        <div class="gallery-placeholder"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6b7276">photo 1600×1200</span></div>
+        <figcaption style="padding:14px 16px 16px">
+          <div style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#6b7276;margin-bottom:5px">Presentation</div>
+          <div style="font-size:16px;line-height:1.45;color:#1b1d1f">Land and Water in a Changing Climate, The Royal Society, London, 2025</div>
+        </figcaption>
+      </figure>
+
+      <figure style="margin:0;background:#fff;border:1px solid #dfe2e4;border-radius:12px;overflow:hidden">
+        <div class="gallery-placeholder"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6b7276">photo 1600×1200</span></div>
+        <figcaption style="padding:14px 16px 16px">
+          <div style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#6b7276;margin-bottom:5px">Presentation</div>
+          <div style="font-size:16px;line-height:1.45;color:#1b1d1f">EGU General Assembly, Vienna</div>
+        </figcaption>
+      </figure>
+
+      <figure style="margin:0;background:#fff;border:1px solid #dfe2e4;border-radius:12px;overflow:hidden">
+        <div class="gallery-placeholder"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6b7276">photo 1600×1200</span></div>
+        <figcaption style="padding:14px 16px 16px">
+          <div style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#6b7276;margin-bottom:5px">Community</div>
+          <div style="font-size:16px;line-height:1.45;color:#1b1d1f">LSDA-CoP workshop series, 2023–2025</div>
+        </figcaption>
+      </figure>
+
+      <figure style="margin:0;background:#fff;border:1px solid #dfe2e4;border-radius:12px;overflow:hidden">
+        <div class="gallery-placeholder"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6b7276">photo 1600×1200</span></div>
+        <figcaption style="padding:14px 16px 16px">
+          <div style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#6b7276;margin-bottom:5px">Community</div>
+          <div style="font-size:16px;line-height:1.45;color:#1b1d1f">"Microwaves from the Sky" outreach workshop, RWTH Aachen</div>
+        </figcaption>
+      </figure>
+
+      <figure style="margin:0;background:#fff;border:1px solid #dfe2e4;border-radius:12px;overflow:hidden">
+        <div class="gallery-placeholder"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6b7276">photo 1600×1200</span></div>
+        <figcaption style="padding:14px 16px 16px">
+          <div style="font-size:11.5px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#6b7276;margin-bottom:5px">Award</div>
+          <div style="font-size:16px;line-height:1.45;color:#1b1d1f">ISH Best PhD Thesis Award, 2024</div>
+        </figcaption>
+      </figure>
+
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" style="padding:44px 0 0;margin-top:44px;border-top:1px solid #dfe2e4">
+    <h2 style="margin:0 0 20px;font-family:'Source Serif 4',serif;font-size:28px;font-weight:600;letter-spacing:-0.015em">Contact</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px">
+      <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:20px 22px">
+        <h3 style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Email</h3>
+        <a href="mailto:ramesh@dcc.rwth-aachen.de" style="font-family:'IBM Plex Mono',monospace;font-size:14.5px">ramesh@dcc.rwth-aachen.de</a>
+      </div>
+      <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:20px 22px">
+        <h3 style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Office</h3>
+        <p style="margin:0;font-size:15.5px;line-height:1.6;color:#2b3033">Chair of Data-driven Computing in Civil Engineering<br>RWTH Aachen University<br>52074 Aachen, Germany</p>
+      </div>
+      <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:20px 22px">
+        <h3 style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Elsewhere</h3>
+        <div style="display:flex;flex-direction:column;gap:4px;font-size:15.5px">
+          <a href="#">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-1664-9483">ORCID 0000-0002-1664-9483</a>
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+      <div style="background:#fff;border:1px solid #dfe2e4;border-radius:10px;padding:20px 22px">
+        <h3 style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:#6b7276">Languages</h3>
+        <p style="margin:0;font-size:15.5px;line-height:1.6;color:#2b3033">Tamil (native) · English (full) · Malayalam (elementary) · Hindi (elementary)</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer style="border-top:1px solid #dfe2e4;background:#e9eaec">
+  <div style="max-width:1120px;margin:0 auto;padding:24px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:14px;color:#6b7276">
+    <span>© 2026 Visweshwaran R.</span>
+    <span style="font-family:'IBM Plex Mono',monospace">Last updated September 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
